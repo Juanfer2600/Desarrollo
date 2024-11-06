@@ -1,7 +1,17 @@
 const express = require('express');
+const axios = require('axios');
 const app = express();
 
-const PORT = process.env.PORT ?? 1234; // Usa el puerto que Render proporciona, o 3000 si no está definido
+app.get('/proyecto', async (req, res) => {
+  try {
+    const response = await axios.get('https://desarrollo-18y4.onrender.com/proyecto.php');
+    res.send(response.data);
+  } catch (error) {
+    res.status(500).send('Error al acceder al archivo PHP');
+  }
+});
+
+const PORT = process.env.PORT ?? 1234;
 app.listen(PORT, () => {
-  console.log(`Server running on port http://localhost:${PORT}`);
+  console.log(`Servidor Express en el puerto ${PORT}`);
 });
