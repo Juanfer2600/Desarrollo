@@ -1,13 +1,14 @@
 const express = require('express');
-const mysql = require('mysql');
+const mysql = require('mysql2'); // Usamos mysql2 para soporte de async/await
 const app = express();
 
-// Configuración de la conexión a la base de datos
+// Configuración de la conexión a la base de datos usando variables de entorno
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'umg'
+  host: process.env.DB_HOST,       // Host de la base de datos
+  port: process.env.DB_PORT,       // Puerto de la base de datos (normalmente 3306 para MySQL)
+  user: process.env.DB_USER,       // Usuario de la base de datos
+  password: process.env.DB_PASSWORD, // Contraseña de la base de datos
+  database: process.env.DB_NAME    // Nombre de la base de datos
 });
 
 // Conectar a la base de datos
