@@ -11,6 +11,7 @@ const db = new Pool({
   database: process.env.DB_NAME    // Nombre de la base de datos
 });
 
+
 // Endpoint para obtener los proyectos en formato JSON
 app.get('/proyectos', async (req, res) => {
   try {
