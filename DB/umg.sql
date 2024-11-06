@@ -35,7 +35,7 @@ CREATE TABLE `empleados` (
   `tareas` varchar(50) NOT NULL,
   `proyectos` varchar(50) NOT NULL,
   `materiales` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `empleados`
@@ -61,7 +61,7 @@ CREATE TABLE `materiales` (
   `tipo` varchar(50) NOT NULL,
   `cantidad` varchar(50) NOT NULL,
   `estado` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `materiales`
@@ -86,7 +86,7 @@ CREATE TABLE `proyectos` (
   `ubicacion` mediumtext NOT NULL,
   `estado` varchar(50) NOT NULL,
   `presupuesto` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `proyectos`
@@ -110,7 +110,7 @@ CREATE TABLE `tareas` (
   `nombre_tarea` varchar(50) NOT NULL,
   `estado` varchar(50) NOT NULL,
   `descripcion` mediumtext NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tareas`
@@ -152,7 +152,7 @@ DROP TABLE IF EXISTS `user_type`;
 CREATE TABLE `user_type` (
   `id` int NOT NULL,
   `nombre` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `user_type`
