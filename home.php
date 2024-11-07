@@ -47,7 +47,10 @@ if (isset($_SESSION['username'])) {
                                             <div class="flex-grow-1">
                                                 <!-- Mostrar el nombre del usuario -->
                                                 <h1>BIENVENIDO <?php echo htmlspecialchars($username); ?>!</h1>
+                                                <br>
+                                                <span ></span>
                                             </div>
+                                        <a href="https://prueba100-6bcda8ea6008.herokuapp.com/" class="btn btn-primary">Ir al servicio web</a>
                                         </div><!-- end card header -->
                                     </div>
                                     <!--end col-->
