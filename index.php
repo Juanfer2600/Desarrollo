@@ -5,7 +5,7 @@ include 'assets/header.php'; ?>
 
 
 <body>
-    <div class="auth-page-wrapper pt-5">
+    <div class="auth-page-wrapper pt-5" style="min-height: 100vh; display: flex; align-items: center; justify-content: center;">
         <!-- auth page content -->
         <div class="auth-page-content">
             <div class="container">

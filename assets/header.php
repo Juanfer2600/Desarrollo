@@ -6,6 +6,56 @@
 
 <head>
 
+    <style>
+        /* Imagen de fondo */
+body {
+    background-image: url('assets/images/fondoindex.jpg'); /* Cambia esta ruta a la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Efecto de opacidad y movimiento al cargar el logo */
+@keyframes fadeInLogo {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.auth-logo img {
+    animation: fadeInLogo 1.5s ease-in-out;
+}
+
+
+/* Efecto de opacidad y movimiento al cargar */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card-bg-fill {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Estilo extra para la tarjeta */
+.card-bg-fill {
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+</style>
+
     <meta charset="utf-8" />
     <title>Gauss</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
