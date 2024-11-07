@@ -1,0 +1,20 @@
+{
+  "name": "desarrollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanfer2600/Desarrollo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanfer2600/Desarrollo/issues"
+  },
+  "homepage": "https://github.com/Juanfer2600/Desarrollo#readme"
+}
