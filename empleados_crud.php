@@ -31,6 +31,8 @@ if($crud == 'create'){
     } else {
         echo "Error";
     }
+} else{
+    echo "Error";
 }
 
 header('location: empleados.php');
