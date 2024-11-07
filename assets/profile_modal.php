@@ -20,24 +20,6 @@
                     <div class="form-group text-center">
                         <h4>0908 - 21 - 6424</h4>
                     </div>
-                    <div class="form-group text-center">
-                        <h4>Carlo André Villanueva Cordón</h4>
-                    </div>
-                    <div class="form-group text-center">
-                        <h4>0908 - 20 - 2666</h4>
-                    </div>
-                    <div class="form-group text-center">
-                        <h4>Pablo Rodrigo Delgado Mendoza</h4>
-                    </div>
-                    <div class="form-group text-center">
-                        <h4>0908 - 21 - 1168</h4>
-                    </div>
-                    <div class="form-group text-center">
-                        <h4>Ashley Nayeli Hernández Olivares</h4>
-                    </div>
-                    <div class="form-group text-center">
-                        <h4>0908 - 19 - 18951</h4>
-                    </div>
                 </form>
             </div>
         </div>

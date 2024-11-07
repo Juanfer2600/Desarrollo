@@ -1,5 +1,54 @@
 <!-- TOP BAR -->
 <header id="page-topbar">
+        <style>
+                /* Fondo degradado para el menú lateral */
+    .app-menu {
+        background: linear-gradient(135deg, #3a3fcd, #8363f6);
+        color: #ffffff;
+    }
+
+    /* Efecto de sombra y bordes redondeados */
+    .navbar-brand-box, .navbar-nav .nav-item .menu-link {
+        border-radius: 8px;
+        margin-bottom: 10px;
+        transition: all 0.3s ease; /* Suaviza las transiciones */
+    }
+
+    /* Estilos para los íconos del menú */
+    .navbar-nav .nav-item .menu-link i {
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    /* Efecto hover más notorio en las opciones del menú */
+    .navbar-nav .nav-item .menu-link:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #ffffff;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+        transform: translateX(5px); /* Desplazamiento sutil a la derecha */
+    }
+
+    /* Efecto de crecimiento de íconos en hover */
+    .navbar-nav .nav-item .menu-link:hover i {
+        transform: scale(1.3); /* Aumento de tamaño más notable */
+        color: #ffd700; /* Cambia el color del ícono en hover */
+    }
+
+    /* Estilo para el botón de 'Acerca de...' en el top bar */
+    #page-header-user-dropdown {
+        color: #3a3fcd;
+        background-color: #f0f0f0;
+        border-radius: 15px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    #page-header-user-dropdown:hover {
+        color: #ffffff;
+        background-color: #3a3fcd;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+    }
+        </style>
+
+
     <div class="layout-width">
         <div class="navbar-header">
             <div class="d-flex">

@@ -8,7 +8,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
-                    Creado por Grupo 5 
+                    Creado por Juanfer De Leon y Danny Gutierrez 
                 </div>
             </div>
         </div>
